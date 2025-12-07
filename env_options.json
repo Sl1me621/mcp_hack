@@ -1,0 +1,22 @@
+{
+  "MCP_NAME": {
+    "description": "Название MCP-сервера",
+    "required": true,
+    "secret": false
+  },
+  "MCP_HOST": {
+    "description": "Адрес для запуска MCP",
+    "required": true,
+    "secret": false
+  },
+  "MCP_PORT": {
+    "description": "Порт MCP-сервера",
+    "required": true,
+    "secret": false
+  },
+  "LOG_LEVEL": {
+    "description": "Уровень логирования",
+    "required": false,
+    "secret": false
+  }
+}

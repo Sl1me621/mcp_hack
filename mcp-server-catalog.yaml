@@ -1,0 +1,12 @@
+id: mathematical-mcp
+name: "Mathematical Calculator & Tutor"
+description: "MCP-сервер для вычислений, статистики и генерации учебных материалов"
+version: "1.0.0"
+contact:
+  email: "paningt56@gmail.com"
+  authors: ["Матвей Панин", "команда SAMARKAND"]
+docs:
+  home: "https://github.com/Sl1me621/mcp_hack2"
+servers:
+  - transport: http
+    url: "http://127.0.0.1:8000/mcp"
