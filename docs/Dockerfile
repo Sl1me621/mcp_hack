@@ -21,10 +21,10 @@ RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
 # Копируем исходники MCP-сервера
-COPY math_mcp ./math_mcp
+COPY server_mcp ./server_mcp
 
 # Переходим в директорию сервера
-WORKDIR /app/math_mcp
+WORKDIR /app/server_mcp
 
 # Значения по умолчанию для контейнера
 ENV MCP_HOST=0.0.0.0 \
