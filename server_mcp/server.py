@@ -1,7 +1,7 @@
 # server.py
 import os
 from dotenv import load_dotenv
-from mcp_instance import mcp
+from server_mcp.mcp_instance import mcp
 
 load_dotenv()
 
