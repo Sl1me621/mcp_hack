@@ -1,0 +1,51 @@
+{
+  "rawEnvs": [
+    {
+      "name": "EVOLUTION_BASE_URL",
+      "description": "Базовый URL Evolution Foundation Models API",
+      "required": true
+    },
+    {
+      "name": "EVOLUTION_MODEL",
+      "description": "Имя модели Evolution Foundation Models",
+      "required": true
+    },
+    {
+      "name": "EVOLUTION_TIMEOUT",
+      "description": "Таймаут запроса к LLM в секундах (опционально, по умолчанию 60)",
+      "required": false
+    },
+    {
+      "name": "MATH_MCP_URL",
+      "description": "URL math MCP-сервера, к которому ходит A2A-агент",
+      "required": true
+    },
+    {
+      "name": "MCP_NAME",
+      "description": "Название MCP-сервера",
+      "required": false
+    },
+    {
+      "name": "MCP_HOST",
+      "description": "Хост MCP-сервера",
+      "required": false
+    },
+    {
+      "name": "MCP_PORT",
+      "description": "Порт MCP-сервера",
+      "required": false
+    },
+    {
+      "name": "LOG_LEVEL",
+      "description": "Уровень логирования",
+      "required": false
+    }
+  ],
+  "secretEnvs": [
+    {
+      "name": "EVOLUTION_API_KEY",
+      "description": "Секретный API-ключ Evolution Foundation Models",
+      "required": true
+    }
+  ]
+}
